@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+
+@font-face {
+	font-family: "Futura Md BT";
+	src:url("futura medium bt.ttf");
+}
+
+.pcLOGO img {
+	max-width:15%;
+	height:auto;
+	padding:15px;
+}
+
+.navbar {
+	overflow:hidden;
+		
+}
+.navbar nav {
+	width:100vw;
+	background-color:#FFFFFF;
+
+}
+.navbar ul {
+	display:flex;
+	list-style-type: none;
+	font-size: 25px;
+	font-family: 'Futura Md BT';
+	margin-left:50px;
+}
+
+.navbar li {
+	padding: 25px;
+}
+
+.navbar li:hover {
+	background-color:#B24DCB;
+}
+
+
+.part1 {
+	padding:290px;
+	overflow:hidden;
+	background-image:url("graphics/homepage image.jpg");
+	background-attachment: fixed;
+	background-repeat:none;
+	
+}
+
+.part1 h1{
+	margin:0;
+	font-family:"Futura Md BT";
+	color: white;
+	font-size:35px;
+	text-align:center;
+}
+
+p2 {
+	font-size: 70px;
+}
+
+p3 {
+	font-size: 40px;
+}
+
+p2, p3, p4, p5 {
+	font-family: "Futura Md BT";
+	color:#FFFFFF;
+	position:relative;
+}
+
+hr {
+	border:solid #FFFFFF;
+	border-width:5px;
+}
+
+.part2 {
+	margin-top:0%;
+	padding-left:100px;
+	padding-right:100px;
+	padding-top:70px;
+	padding-bottom:50px;
+	background-color:#4F4394;
+}
+
+.part2 img {
+	margin-right: 30px;
+	width:40%;
+	height:auto;
+	border:#FFFFFF solid thick;
+	border-width: 20px;
+	position:relative;
+}
+
+.part3 {
+	padding-bottom:100px;
+	background-color:#4A008D;
+}
+
+.part3 p4 {
+	font-size: 40px;
+	color:#FFFFFF;
+}
+.part3 img {
+	margin-right:90px;
+	width:37%;
+	height:auto;
+	border: solid thick #EEC6FF;
+	position:relative;
+	border-width:100px;
+}
+
+.part4{
+	background-color:#4F4394;
+	padding:100px;
+	padding-bottom:120px;
+	margin-top:0%;
+}
+
+.part4 p5 {
+	font-size:38px;
+	
+}
+
+.part4 img {
+	width:19%;
+	height:auto;
+	border:solid thick #FFFFFF;
+	border-width:45px;
+	margin-top:-30%;
+	margin-right:-50px;
+}
+
+.part5 {
+	background-color:#4A008D;
+	padding:30px;
+	border-bottom:solid thick #000000;
+	border-bottom-width: 15px;
+	
+}
+
+.part5 p5 {
+	font-size:35px;
+	margin:50px;
+	margin-top:-300px;
+}
+
+.part5 iframe {
+	margin:50px;
+}
+
+.socialMedia ul {
+	padding:10px;
+}
+
+.socialMedia li{
+	display:inline-flex;
+}
+
+button {
+	font-family: "Futura Md BT";
+	border-style: none;
+	width:150px;
+	height:auto;
+	padding:10px;
+	font-size:50px;
+	color:#FFFFFF;
+	background-color:#000000;
+}

@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+.pcLOGO img {
+	max-width:15%;
+	height:auto;
+	padding:15px;
+}
+@font-face {
+	font-family: "Futura Md BT";
+	src:url("futura medium bt.ttf");
+}
+
+.navbar {
+	overflow:hidden;
+		
+}
+.navbar nav {
+	width:100vw;
+	background-color:#FFFFFF;
+
+}
+.navbar ul {
+	display:flex;
+	list-style-type: none;
+	font-size: 25px;
+	font-family: 'Futura Md BT';
+	margin-left:50px;
+}
+
+.navbar li {
+	padding: 25px;
+}
+
+.navbar li:hover {
+	background-color:#B24DCB;
+}
+
+h1, p1 {
+	font-family: "Futura Md BT";
+	color:#FFFFFF;
+}
+
+hr{
+	border:solid thick #FFFFFF;
+	border-width:2px;
+}
+
+h1{
+	font-size:50px;
+
+}
+
+p1{
+	font-size:25px;
+}
+
+body {
+	background-color:#A388FF;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+form {
+	background-color:#1A0096;
+	font-family: 'Futura Md BT';
+	color:#FFFFFF;
+	padding:55px;
+	height:auto;
+	padding-bottom:75px;
+}
+p5{
+	font-size:35px;
+}
+
+#name {
+	list-style-type:none;
+
+}
+
+#contacts {
+	list-style-type:none;
+
+}
+
+#firstName, #lastName, #email, #phoneNum, #calendar, #comments{
+	padding-bottom:30px;
+	font-size:35px;
+}
+
+#submit{
+	background-color:#000000;
+	color:white;
+	font-family:"Futura Md BT";
+	border:none;
+	padding:10px;
+	font-size:20px;
+}
+
+p4{
+	font-size:15px;
+}
+
+.info {
+	margin-top:-54%;
+	margin-right:50px;
+}
+
+.socialMedia {
+	background-color:#FFFFFF;
+	padding:25px;
+	border-top:solid thick #000000;
+	border-width:15px;
+}
+
+.socialMedia li{
+	display:inline-flex;
+}
+
+button {
+	font-family: "Futura Md BT";
+	border-style: none;
+	width:150px;
+	height:auto;
+	font-size:50px;
+	color:#FFFFFF;
+	background-color:#000000;
+	padding:10px;
+}

@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+@font-face {
+	font-family: "Futura Md BT";
+	src:url("futura medium bt.ttf");
+}
+
+body {
+	background-color:#FFFFFF;	
+}
+
+
+.pcLOGO img {
+	max-width:15%;
+	height:auto;
+	padding:15px;
+}
+
+.navbar {
+	overflow:hidden;
+	margin-left:50px;	
+}
+.navbar nav {
+	width:100vw;
+	background-color:#FFFFFF;
+
+}
+.navbar ul {
+	display:flex;
+	list-style-type: none;
+	font-size: 25px;
+	font-family: 'Futura Md BT';
+}
+
+.navbar li {
+	padding: 25px;
+}
+
+.navbar li:hover {
+	background-color:#B24DCB;
+}
+
+h1, h2, p1 {
+	font-family:"Futura Md BT";
+}
+
+h2{
+	color:white;
+	text-align:center;
+	font-size:35px;
+}
+
+p1{
+	color:white;
+}
+
+.title {
+	background-image:url("graphics/services photo.jpg");
+	background-attachment: fixed;
+	padding:150px;
+}
+
+.title h1{
+	color:black;
+	text-align:center;
+	font-size:50px;
+}
+
+.part1 {
+	padding:75px;
+	background-color:#D3A3FF;
+	
+}
+
+.part1 ul {
+	display:flex;
+	text-decoration-style:none;
+	list-style-type:none;
+}
+
+.part1 li {
+	margin:75px;
+	margin-top:50px;
+	margin-bottom:50px;
+	font-size:25px;
+}
+
+.part2{
+	padding:75px;
+	background-color:#AC52FD;
+}
+
+.part3{
+	padding:75px;
+	background-color:#8600FF;
+	border-bottom:solid thick #000000;
+	border-bottom-width:15px;
+}
+
+.socialMedia ul {
+padding:10px;
+}
+
+.socialMedia li{
+	display:inline-flex;
+}
+
+button {
+	font-family: "Futura Md BT";
+	border-style: none;
+	width:150px;
+	height:auto;
+	padding:10px;
+	font-size:50px;
+	color:#FFFFFF;
+	background-color:#000000;
+}

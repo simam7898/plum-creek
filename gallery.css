@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+img {
+	max-width: 40%;
+	height: auto;
+}
+
+center1 {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+}
+
+center2 {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+}
+
+center3 {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+}
+
+center4 {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+}
+
+.header {
+	padding-right: 700px;
+	width: 15%;
+	height: auto;
+}
+
+li{
+	display: inline;
+	position: static;
+}
+a {
+  display: block;
+  padding: 15px;
+  background-color:#EFC0FF;
+  width: auto;
+  
+}
+
+a:hover {
+	background-color:#C6FBFF;
+}
+
+ul {
+  list-style-type: none;
+  position: relative;
+  top: -40px;
+  font-size: 30px;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+  display: flex;
+  padding-bottom: 30px;
+  background-color: #EFC0FF;
+}
+
+
+body{
+	background-color: #E899FF;
+}
